@@ -1,9 +1,9 @@
-public abstract class Shape {
+public abstract class ShapeA {
     // instance variables
     String name;
 
     // constructors
-    public Shape(String name) {
+    public ShapeA(String name) {
         this.name = name;
     }
 

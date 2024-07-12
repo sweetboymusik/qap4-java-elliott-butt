@@ -1,9 +1,9 @@
-public class Circle extends Ellipse {
+public class CircleB extends EllipseB {
     // instance variables
     double radius;
 
     // constructors
-    public Circle(String name, double radius) {
+    public CircleB(String name, double radius) {
         super(name, radius, radius);
         this.radius = radius;
     }

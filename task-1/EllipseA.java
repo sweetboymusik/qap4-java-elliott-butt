@@ -1,10 +1,10 @@
-public class Ellipse extends Shape {
+public class EllipseA extends ShapeA {
     // instance variables
     double a;
     double b;
 
     // constructors
-    public Ellipse(String name, double axis1, double axis2) {
+    public EllipseA(String name, double axis1, double axis2) {
         super(name);
 
         if (axis1 > axis2) {

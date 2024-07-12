@@ -1,9 +1,9 @@
-public abstract class Shape implements Scalable {
+public abstract class ShapeB implements Scalable {
     // instance variables
     String name;
 
     // constructors
-    public Shape(String name) {
+    public ShapeB(String name) {
         this.name = name;
     }
 

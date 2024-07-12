@@ -1,6 +1,8 @@
 QAP 4 - Java
 Elliott Butt
 
+Note that task 1 and 2 classes have A/B added to make them unique classes (so they can both compile seperately)
+
 1. ~2 hours
 2. Some google, stack overflow
 3. No questions.

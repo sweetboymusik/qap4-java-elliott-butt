@@ -1,11 +1,11 @@
-public class Triangle extends Shape {
+public class TriangleB extends ShapeB {
     // instance variables
     double side1;
     double side2;
     double side3;
 
     // constructors
-    public Triangle(String name, double side1, double side2, double side3) {
+    public TriangleB(String name, double side1, double side2, double side3) {
         super(name);
 
         boolean condition1 = (side1 + side2) > side3;
@@ -61,5 +61,12 @@ public class Triangle extends Shape {
         double perimiter = side1 + side2 + side3;
 
         return perimiter;
+    }
+
+    @Override
+    public void scale(double factor) {
+        this.setSide1(this.side1 * factor);
+        this.setSide2(this.side2 * factor);
+        this.setSide3(this.side3 * factor);
     }
 }
