@@ -1,0 +1,9 @@
+QAP 4 - Java
+Elliott Butt
+
+1. ~2 hours
+2. Some google, stack overflow
+3. No questions.
+4. No questions.
+5. Exception handling questions very easy. 
+   Inheritance/abstract classes/interfaces were good level.
